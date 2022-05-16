@@ -1,4 +1,4 @@
-# Factor_Prediction
+# Advanced Semiconductor Fabrication Factor Prediction with Reinforcement Learning
 With the limitation of critical dimension in recent technology, it is difficult to directly scale down semiconductor with common methods. Gate All-Around semiconductor is used to enhance the current scale and stability in advanced fabrication. To better perform read-only memory (ROM), we should further operate breakdown on active regions to provide large enough current (with 0.5V). However, this operation is generally manipulated by hand and causes wasting of power. Hence, we attempted to predict advanced semiconductor fabrication (Gate All-Around Breakdown) factors by reinforcement learning. In case that the dataset is from unpublished papers, the training data we used can't be revealed. We utilized cut-off manager to determine when to pause the breakdown operation. As result, we obtained 43% of accuracy in this dataset. If the model is trained with more dataset, it is convincing that the performace can be significantly improved.
 
 ## Dataset
